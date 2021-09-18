@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root {
+	--primary-1: hsl(225, 100%, 94%);
+	--primary-2: hsl(245, 75%, 52%);
+
+	--neutral-1: hsl(225, 100%, 98%);
+	--neutral-2: hsl(224, 23%, 55%);
+	--neutral-3: hsl(223, 47%, 23%);
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: var(--primary-1);
+	font-family: 'Red Hat Display', sans-serif;
+	font-size: 16px;
+}
+
+#svelte {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
