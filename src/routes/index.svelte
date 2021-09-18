@@ -5,6 +5,10 @@
 	import '../app.css';
 </script>
 
+<svelte:head>
+	<title>Order Summary Component | Frontend Mentor Challenge</title>
+</svelte:head>
+
 <div class="container">
 	<div class="component">
 		<div class="image">
