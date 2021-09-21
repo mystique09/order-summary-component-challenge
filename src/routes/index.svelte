@@ -52,6 +52,9 @@
 
 	.component {
 		width: 500px;
+		background: var(--neutral-1);
+		box-shadow: 0 10px 30px var(--neutral-2);
+		border-radius: 20px;
 	}
 
 	.image {
